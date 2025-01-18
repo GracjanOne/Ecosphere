@@ -1,0 +1,6 @@
+.hero-emphasis{
+    background-color: var(--third-color);
+    color: var(--background);
+    padding: 0.1% 1%;
+    border-radius: 0.5vw;
+}

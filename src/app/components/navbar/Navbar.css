@@ -1,0 +1,86 @@
+.logo {
+    font-size: 1.44rem;
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 2%;
+    align-items: center;
+}
+
+.navbar {
+    width: 95%;
+    margin: auto;
+    background-color: #F0F0F0;
+    border-radius: 1.5vw;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar-contact {
+    background-color: var(--third-color);
+    display: block;
+    border-radius: 0.5vw;
+    color: var(--background);
+    height: 50px;
+    width: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger-menu {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hamburger-bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    border-radius: 3px;
+}
+
+.mobile-menu {
+    max-height: 0; /* Początkowa wysokość */
+    overflow: hidden; /* Ukryj zawartość poza maksymalną wysokością */
+    transform: scaleY(0);
+    transform-origin: top;
+    opacity: 0;
+    transition: max-height 0.5s ease, transform 0.5s ease, opacity 0.1s ease;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    text-align: center;
+    background-color: #F0F0F0;
+    border-radius: 1.5vw;
+    display: flex;
+    
+}
+.mobile-link{
+    margin-bottom: 10px;
+}
+.mobile-menu.open {
+    max-height: 300px; /* Odpowiednia wysokość dla otwartego menu */
+    transform: scaleY(1);
+    opacity: 1;
+    
+}
+@media (max-width: 500px) {
+    .navbar-links {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+}
