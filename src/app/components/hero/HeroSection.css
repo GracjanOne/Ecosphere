@@ -4,3 +4,35 @@
     padding: 0.1% 1%;
     border-radius: 0.5vw;
 }
+.hero-wrapper{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.subtitle{
+    text-align: center;
+    font-size: 1.44rem;
+
+}
+.hero-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.cta-button{
+    font-size: 1.44rem;
+    background-color: var(--third-color);
+    color: var(--background);
+    font-weight: bold;
+    padding: 1.5% 3%;
+    margin: auto;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+#solar-hero{
+    width: 100%;
+}

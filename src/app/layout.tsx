@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="pl">
       <body className={`${raleway.variable}`}>
         <Navbar />
-        <div className="web-margins">{children}</div>
+        {children}
         <Footer />
       </body>
     </html>
