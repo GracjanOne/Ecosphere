@@ -13,13 +13,20 @@
 .subtitle{
     text-align: center;
     font-size: 1.44rem;
-
+    max-width: 1200px;
+    margin: 0 auto;
+    @media screen and (max-width:800px) {
+        font-size: 1.2rem;
+      }
 }
 .hero-text-wrapper{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 100%;
+    @media screen and (max-width:1024px) and (min-height: 900){
+        justify-content: center;
+    }
 }
 .cta-button{
     font-size: 1.44rem;
@@ -28,6 +35,15 @@
     font-weight: bold;
     padding: 1.5% 3%;
     margin: auto;
+    margin: 40px 0 4% 0;
+    @media screen and (max-width:1024px) and (min-height: 900){
+        margin: 5% 0;
+    }
+    @media screen and (max-width:550px) {
+        width: 95vw;
+        padding: 3%;
+        text-align: center;
+      }
 }
 .center{
     display: flex;
