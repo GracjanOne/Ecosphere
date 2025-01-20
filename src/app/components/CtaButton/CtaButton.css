@@ -1,0 +1,19 @@
+.right-arrow-background{
+    width: 40px;
+    height: 40px;
+    background-color: var(--third-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-button-under{
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.2rem;
+}
+.cta-text{
+    text-decoration: underline;
+}
