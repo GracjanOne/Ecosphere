@@ -1,7 +1,13 @@
 import "@/app/components/CtaButton/CtaButton.css";
 import Image from "next/image";
 import Link from "next/link";
-export default function CtaButton({link,children}:any) {
+
+interface CtaButtonProps{
+    link: string,
+    children: string
+}
+
+export default function CtaButton({link,children}: CtaButtonProps) {
   return (
     <Link href={link} className="cta-button-under">
       <div className="right-arrow-background">
