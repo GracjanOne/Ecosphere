@@ -2,7 +2,7 @@ import "@/app/components/footer/Footer.css";
 import Link from "next/link";
 export default function Footer() {
   return (
-    <footer className="web-margins">
+    <footer style={{marginTop: "50px"}} className="web-margins">
       <div id="line"></div>
       <div className="footer-wrapper">
           <div className="footer-logo">ecosphere</div>

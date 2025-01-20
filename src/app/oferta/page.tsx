@@ -1,7 +1,9 @@
+import OfferSection from "../components/OfferSection/OfferSection"
+
 export default function page(){
     return (
         <div >
-            oferta
+            <OfferSection />
         </div>
     )
 }
