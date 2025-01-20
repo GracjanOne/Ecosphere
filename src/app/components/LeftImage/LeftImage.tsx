@@ -28,7 +28,7 @@ export default function LeftImage({
         <Image  src={img} alt="" width={imgWidth} height={imgHeight} />
       </div>
       <div className="image-right-text">
-        <h2 className="section-header">{title}</h2>
+        <h3 className="section-header">{title}</h3>
         <div className="image-paragraphs">
             <p>{p1}</p>
             <p>{p2}</p>

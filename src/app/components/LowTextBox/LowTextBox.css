@@ -1,0 +1,20 @@
+.low-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+    @media screen and (max-width:860px){
+        margin: 5% auto ;
+    }
+    @media screen and (max-width:400px){
+        width: 100%;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+.low-text-title{
+    font-size: 1.44rem;
+    font-weight: bold;
+}

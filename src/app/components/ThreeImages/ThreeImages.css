@@ -1,0 +1,32 @@
+.three-images-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    @media screen and (max-width:860px){
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.three-header{
+    margin-top: 14%;
+    @media screen and (max-width:860px){
+        text-align: center;
+    }
+}
+
+.three-button{
+    font-size: 1.44rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1% 4%;
+    border: 2px solid black;
+    border-radius: 0.5vw;
+    margin-top: 4%;
+    @media screen and (max-width:800px){
+        width: 100%;
+        border: 1px solid black;
+        padding: 2% 4%;
+    }
+}
