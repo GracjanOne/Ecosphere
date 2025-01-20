@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 export default function HeroSection() {
   const [innerWidth, setWidth] = useState<number>(600)
   useEffect(()=>{
-    let width:number = window.innerWidth
+    const width:number = window.innerWidth
     setWidth(width)
 },[])
 
