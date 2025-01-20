@@ -2,6 +2,8 @@ import HeroSection from "./components/hero/HeroSection";
 import LeftImage from "./components/LeftImage/LeftImage";
 import BoxImage from "./components/BoxImage/BoxImage";
 import ThreeImages from "./components/ThreeImages/ThreeImages";
+import SocialProof from "./components/SocialProof/SocialProof";
+import FAQSection from "./components/FAQSection/FAQSection";
 export default function Home() {
   return (
    <div>
@@ -15,6 +17,8 @@ export default function Home() {
     button="Oszczędź środowisko"
     img="/eco.webp" imgWidth={550} imgHeight={710} isRight={true}/>
     <ThreeImages />
+    <SocialProof />
+    <FAQSection />
    </div>
   );
 }

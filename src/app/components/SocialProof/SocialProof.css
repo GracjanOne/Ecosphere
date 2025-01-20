@@ -1,0 +1,16 @@
+.social-header{
+    margin-top: 14%;
+    margin-bottom: 0;
+}
+.social-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    img{
+        @media screen and (max-width: 675px){
+            width: 100%;
+            height: auto;
+        }
+    }
+}
