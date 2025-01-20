@@ -23,7 +23,7 @@ export default function LeftImage({
   isRight,
 }: LeftImageProps) {
   return (
-    <div className="web-margins left-image-wrapper" style={isRight ? {flexDirection: "row-reverse"} : {flexDirection: "row"}}>
+    <div className="web-margins left-image-wrapper section-margins" style={isRight ? {flexDirection: "row-reverse"} : {flexDirection: "row"}}>
       <div className="left-image-object">
         <Image  src={img} alt="" width={imgWidth} height={imgHeight} />
       </div>

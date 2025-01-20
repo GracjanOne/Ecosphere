@@ -10,7 +10,6 @@
 }
 
 .three-header{
-    margin-top: 14%;
     @media screen and (max-width:860px){
         text-align: center;
     }

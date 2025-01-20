@@ -43,7 +43,6 @@
 .box-wrapper{
     display: flex;
     justify-content: space-between;
-    margin-top: 14%;
     @media screen and (min-width:1560px){
         justify-content: center;
         gap: 5%;

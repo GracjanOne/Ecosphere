@@ -3,7 +3,7 @@ import "@/app/components/ThreeImages/ThreeImages.css"
 import Link from "next/link"
 export default function ThreeImages(){
     return (
-        <div className="web-margins ">
+        <div className="web-margins section-margins">
             <h4 className="section-header three-header" style={{marginBottom: "5%"}}>Zacznij inwestować z najlepszymi</h4>
             <div className="three-images-wrapper ">
             

@@ -1,0 +1,23 @@
+.cta-header{
+    text-align: center;
+}
+
+.cta-paragraph{
+    text-align: center;
+    margin: 3% 0;
+    @media screen and (max-width:800px){
+        margin: 6% 0;
+    }
+}
+
+.cta-section-button{
+        background-color: var(--third-color);
+    color: var(--background);
+    padding: 1% 4%;
+    font-weight: bold;
+    @media screen and (max-width:800px){
+        width: 100%;
+        text-align: center;
+        padding: 2% 4%;
+    }
+}

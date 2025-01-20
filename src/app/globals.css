@@ -4,7 +4,12 @@
   --third-color: #85A947;
 }
 
-
+.section-margins{
+  margin-top: 14% !important;
+  @media screen and (max-width: 600px){
+    margin-top: 80px !important;
+  }
+}
 
 html,
 body {

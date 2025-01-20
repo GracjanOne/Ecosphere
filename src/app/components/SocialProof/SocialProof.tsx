@@ -3,7 +3,7 @@ import CtaButton from "../CtaButton/CtaButton"
 import "@/app/components/SocialProof/SocialProof.css"
 export default function SocialProof(){
     return (
-        <section className="social-wrapper">
+        <section className="social-wrapper section-margins web-margins">
             <h5 className="section-header social-header" >Zobacz co piszą o nas inni</h5>
             <Image 
                 src="/social-proof.webp"

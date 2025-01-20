@@ -3,7 +3,7 @@ import "@/app/components/BoxImage/BoxImage.css"
 import Link from "next/link";
 export default function BoxImage() {
   return (
-    <div className="web-margins box-wrapper">
+    <div className="web-margins box-wrapper section-margins">
       <div className="image-box">
         <Image src="/solar-panel.webp" alt="" width={550} height={730} />
       </div>

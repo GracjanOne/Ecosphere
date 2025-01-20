@@ -4,6 +4,7 @@ import BoxImage from "./components/BoxImage/BoxImage";
 import ThreeImages from "./components/ThreeImages/ThreeImages";
 import SocialProof from "./components/SocialProof/SocialProof";
 import FAQSection from "./components/FAQSection/FAQSection";
+import CtaSection from "./components/CtaSection/CtaSection";
 export default function Home() {
   return (
    <div>
@@ -19,6 +20,7 @@ export default function Home() {
     <ThreeImages />
     <SocialProof />
     <FAQSection />
+    <CtaSection />
    </div>
   );
 }

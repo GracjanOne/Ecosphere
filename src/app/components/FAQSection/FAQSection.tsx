@@ -12,7 +12,7 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className='web-margins' style={{ borderBottom: '1px solid #ddd', padding: '10px 0' }}>
+    <div className='web-margins ' style={{ borderBottom: '1px solid #ddd', padding: '10px 0' }}>
       <div
         style={{ display: 'flex', justifyContent: 'space-between', cursor: 'pointer' }}
         onClick={() => setIsOpen(!isOpen)}
@@ -44,7 +44,7 @@ const FAQSection: React.FC = () => {
   ];
 
   return (
-    <div className='web-margins' style={{  margin: '0 auto', padding: '20px' }}>
+    <div className='web-margins section-margins' style={{  margin: '0 auto', padding: '20px' }}>
       <h6 className='web-margins section-header' style={{marginBottom: "2%"}}>FAQs</h6>
       <p className='web-margins'  style={{marginBottom: "2%"}}>Znajdź odpowiedź na najczęstsze pytania</p>
       {faqData.map((item, index) => (
