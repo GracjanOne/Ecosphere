@@ -1,0 +1,15 @@
+.contact-ways-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 0 4%;
+   
+}
+
+.contact-ways-header{
+    text-align: center;
+    font-size: 1.424rem;
+    font-weight: bold;
+    margin: 4% 0;
+}

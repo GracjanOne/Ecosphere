@@ -1,0 +1,119 @@
+.contact-form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+
+  }
+  #contact-form-div{
+    font-size: 1rem !important;
+  }
+  /* Stylowanie mapy */
+  .contact-form-wrapper iframe {
+    flex: 1;
+    max-width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dddddd;
+  }
+  
+  /* Stylowanie formularza kontaktowego */
+  .contact-form {
+    flex: 1;
+    max-width: 400px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    max-height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form p {
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* Stylowanie etykiet */
+  .contact-form label {
+    display: block;
+    font-size: 0.9rem;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  
+  /* Stylowanie pól formularza */
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    color: #333333;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contact-form input[type="text"]:focus,
+  .contact-form input[type="email"]:focus,
+  .contact-form textarea:focus {
+    border-color: #007bff;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  /* Stylowanie przycisku */
+  .contact-form button {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: var(--third-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  input, textarea{
+    font-family: inherit;
+  }
+  .contact-form button:hover {
+    background-color: #444444;
+  }
+  
+  /* Responsywność */
+  @media (max-width: 768px) {
+    .contact-form-wrapper {
+      flex-direction: column-reverse;
+      align-items: center;
+      
+    }
+    .contact-form-wrapper iframe{
+        flex: auto;
+        width: 80vw;
+    }
+    .contact-form {
+        width: 80vw;
+        max-width: none;
+    }
+  }
+  
