@@ -53,6 +53,19 @@
     display: flex;
     justify-content: center;
 }
-#solar-hero{
+.solar-hero{
     width: 100%;
+   height: auto;
+}
+.hero-desktop{
+    display: block;
+    @media screen and (max-width:660px){
+        display: none;
+    }
+}
+.hero-mobile{
+    display: none;
+    @media screen and (max-width:660px){
+        display: block;
+    }
 }

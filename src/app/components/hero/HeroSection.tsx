@@ -3,6 +3,7 @@
 import "@/app/components/hero/HeroSection.css";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 export default function HeroSection() {
   const [innerWidth, setWidth] = useState<number>(600)
   useEffect(()=>{
@@ -28,7 +29,9 @@ export default function HeroSection() {
             </Link>
           </div>
         </div>
-        <img id="solar-hero" src={innerWidth > 660 ? "/solar-hero.webp" : "/mobile-hero.webp"} alt="" />
+        
+        <Image className="solar-hero hero-desktop" src="/solar-hero.webp" alt="" width={1512} height={386}/>
+        <Image className="solar-hero hero-mobile" src="/mobile-hero.webp" alt="" width={550} height={240}/>
       </div>
     </section>
   );
