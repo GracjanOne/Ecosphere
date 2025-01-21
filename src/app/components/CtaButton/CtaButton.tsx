@@ -9,7 +9,7 @@ interface CtaButtonProps{
 
 export default function CtaButton({link,children}: CtaButtonProps) {
   return (
-    <Link href={link} className="cta-button-under">
+    <Link scroll={true} href={link} className="cta-button-under">
       <div className="right-arrow-background">
         
         <Image src="/right-arrow.svg" alt="" width={21} height={21} />

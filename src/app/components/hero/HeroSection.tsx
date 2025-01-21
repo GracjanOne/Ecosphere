@@ -2,14 +2,9 @@
 
 import "@/app/components/hero/HeroSection.css";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 import Image from "next/image";
 export default function HeroSection() {
-  const [innerWidth, setWidth] = useState<number>(600)
-  useEffect(()=>{
-    const width:number = window.innerWidth
-    setWidth(width)
-},[])
+ 
 
   return (
     <section>

@@ -1,15 +1,17 @@
+
+
 import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
+import Scroll from "./scroll";
 const raleway = Raleway({
   variable: '--font-raleway',
   subsets: ["latin"],
   weight: ['100', '300', '400', '700', '900'],
   display: 'swap',
 });
-
 
 
 export const metadata: Metadata = {
@@ -26,6 +28,7 @@ export default function RootLayout({
     <html lang="pl">
       <body className={`${raleway.variable}`}>
         <Navbar />
+        <Scroll/>
         {children}
         <Footer />
       </body>
